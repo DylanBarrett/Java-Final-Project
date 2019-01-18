@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dcbk34finalproject.FXMLDocumentController">
+    <children>
+        <Button fx:id="loginButton" layoutX="490.0" layoutY="442.0" onAction="#handleLogin" prefHeight="64.0" prefWidth="204.0" text="Login" />
+        <Label fx:id="label" layoutX="339.0" layoutY="83.0" minHeight="16" minWidth="69" prefHeight="115.0" prefWidth="408.0" text="Welcome Please Login">
+         <font>
+            <Font size="40.0" />
+         </font></Label>
+      <Label layoutX="288.0" layoutY="282.0" prefHeight="42.0" prefWidth="94.0" text="Username:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="288.0" layoutY="354.0" prefHeight="42.0" prefWidth="94.0" text="Password:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField layoutX="391.0" layoutY="282.0" prefHeight="42.0" prefWidth="302.0" />
+      <PasswordField layoutX="392.0" layoutY="354.0" prefHeight="42.0" prefWidth="302.0" />
+    </children>
+</AnchorPane>
